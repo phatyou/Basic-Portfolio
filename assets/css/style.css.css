@@ -1,0 +1,160 @@
+body { 
+  background-color: #999; }
+
+#top-content {
+  width: auto;
+  height: 90px;
+  background-color: #ffffff;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #cccccc;
+  
+}
+
+#name {
+    font: 28px Serif; 
+    letter-spacing: 2px;
+    text-align: center;
+    border-style: solid;
+    background-color: #4aaaa5;
+    padding-top: 30px;
+    width: 20%;
+    height: 53%;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    float: left;
+    
+}
+  #about-me {
+		font: 26px Serif; 
+    letter-spacing: 2px; 
+    margin: 0 0 20px 0;
+	}
+
+.nav {
+    display: block;
+}
+
+ul li {
+      float: right;
+      list-style: none;
+      position: relative;
+      top: 60px;
+      
+}
+
+ul li a {
+    color: #777777; 
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Arial";
+   
+}
+
+ ul li a:hover {
+      color: black;
+}
+
+li:not(:last-child) { border-left: 1px solid #777777; 
+}
+
+#green {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 70px;
+    padding: 16px;
+    position: relative;
+    left: 90px;
+}
+
+#about-me {
+    text-decoration: underline;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: "Arial";
+    font-size: 38px;
+    color: #4aaaa5;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#green-text {
+    color: #777777;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#red-text {
+    color: #4aaaa5;
+    padding-top: 3px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+img {
+  float: left;
+  padding-top: 5px;
+  padding-right: 20px;
+  width: 25%;
+}
+
+#red {
+    width: 300px;
+    height: 200px;
+    border: 1px solid  #dddddd;
+    background-color: #ffffff;
+    margin: 70px;
+    float: left;
+}
+
+#connect-with-me {
+    
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: "Arial";
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+#main {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: -10px;
+    background-color: white;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+}
+
+#main div {
+    width: 60px;
+    height: 60px;
+}
+
+#blue {
+    height: 65px;
+    background-color: #666666;
+    border-top: 8px solid blue;
+    font-size: 18px;
+    text-align: center;
+    color: #777777;
+    padding-top: 30px;
+    margin: 5px;
+    clear: both;
+}
